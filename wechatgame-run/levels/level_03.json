@@ -1,0 +1,385 @@
+{
+  "id": "level_03",
+  "name": "深夜清场挑战",
+  "rows": 6,
+  "cols": 5,
+  "slotCapacity": 7,
+  "moveQuota": 22,
+  "items": {
+    "undo": 2,
+    "magnet": 2,
+    "expand": 1,
+    "reshuffle": 1,
+    "ice_pick": 8,
+    "key": 4
+  },
+  "grid": [
+    [
+      {
+        "stack": [
+          "latte",
+          "latte",
+          "latte",
+          "coffee"
+        ],
+        "iced": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "matcha",
+          "matcha"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "matcha",
+          "matcha",
+          "matcha",
+          "matcha"
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "juice",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "milk_tea",
+          "milk_tea",
+          "soda",
+          "soda"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "soda",
+          "soda"
+        ],
+        "iced": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "soda",
+          "smoothie"
+        ],
+        "iced": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "milk_tea",
+          "cocoa",
+          "cocoa",
+          "cocoa"
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "juice"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "matcha",
+          "matcha"
+        ]
+      },
+      {
+        "stack": [
+          "matcha",
+          "cocoa",
+          "cocoa",
+          "cocoa"
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "cocoa"
+        ]
+      },
+      {
+        "stack": [
+          "cocoa",
+          "cocoa",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "milk_tea",
+          "matcha",
+          "matcha",
+          "matcha"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "matcha",
+          "matcha",
+          "matcha",
+          "cocoa"
+        ]
+      },
+      {
+        "stack": [
+          "cocoa",
+          "cocoa",
+          "juice",
+          "juice"
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "smoothie",
+          "smoothie",
+          "smoothie"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "juice",
+          "soda"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "locked": [
+          false,
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "milk_tea",
+          "milk_tea"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "locked": [
+          false,
+          true,
+          false,
+          false
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "milk_tea",
+          "coffee",
+          "coffee",
+          "coffee"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "juice",
+          "smoothie"
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "coffee",
+          "coffee"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "soda",
+          "soda",
+          "soda"
+        ]
+      },
+      {
+        "stack": [
+          "latte",
+          "latte",
+          "latte",
+          "milk_tea"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "milk_tea",
+          "milk_tea",
+          "smoothie",
+          "smoothie"
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "latte",
+          "latte",
+          "latte"
+        ]
+      },
+      {
+        "stack": [
+          "latte",
+          "latte",
+          "latte",
+          "smoothie"
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "cocoa",
+          "cocoa"
+        ]
+      },
+      {
+        "stack": [
+          "cocoa",
+          "latte",
+          "latte",
+          "latte"
+        ]
+      }
+    ]
+  ],
+  "meta": {
+    "estimatedMinutes": [
+      12,
+      15
+    ],
+    "description": "高压长局：120 杯，障碍更多，道具配额更紧。"
+  }
+}

@@ -10,7 +10,8 @@
     "preview": "npm run build:preview && npx --yes serve preview -p 5173",
     "validate:levels": "tsx scripts/validate-levels.ts",
     "typecheck": "tsc --noEmit",
-    "gen:levels": "tsx scripts/gen-levels.ts"
+    "gen:levels": "tsx scripts/gen-levels.ts",
+    "build:wechat": "node scripts/build-wechat.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

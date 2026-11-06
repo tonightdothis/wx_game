@@ -1,0 +1,295 @@
+{
+  "id": "level_02",
+  "name": "午后高峰柜",
+  "rows": 5,
+  "cols": 4,
+  "slotCapacity": 7,
+  "moveQuota": 18,
+  "items": {
+    "undo": 2,
+    "magnet": 2,
+    "expand": 1,
+    "reshuffle": 1,
+    "ice_pick": 4,
+    "key": 2
+  },
+  "grid": [
+    [
+      {
+        "stack": [
+          "milk_tea",
+          "milk_tea",
+          "milk_tea",
+          "soda",
+          "soda"
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "latte",
+          "latte",
+          "latte",
+          "soda"
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "milk_tea",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "soda",
+          "coffee",
+          "coffee"
+        ],
+        "iced": [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "coffee",
+          "juice"
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "coffee",
+          "coffee",
+          "coffee"
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "smoothie",
+          "soda",
+          "soda"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "smoothie",
+          "smoothie",
+          "smoothie",
+          "juice"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "latte",
+          "latte",
+          "latte"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          true,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "smoothie",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "milk_tea",
+          "smoothie",
+          "smoothie",
+          "smoothie",
+          "juice"
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "latte",
+          "latte",
+          "latte"
+        ],
+        "iced": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "soda",
+          "juice",
+          "juice"
+        ],
+        "iced": [
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "locked": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "smoothie",
+          "smoothie",
+          "smoothie",
+          "smoothie"
+        ]
+      },
+      {
+        "stack": [
+          "smoothie",
+          "smoothie",
+          "soda",
+          "soda",
+          "soda"
+        ]
+      },
+      {
+        "stack": [
+          "latte",
+          "latte",
+          "latte",
+          "milk_tea",
+          "milk_tea"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "milk_tea",
+          "latte",
+          "latte",
+          "latte"
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "coffee",
+          "juice"
+        ]
+      },
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "milk_tea",
+          "coffee",
+          "coffee",
+          "coffee"
+        ]
+      }
+    ]
+  ],
+  "meta": {
+    "estimatedMinutes": [
+      8,
+      12
+    ],
+    "description": "标准长局：约 96 杯，含少量冰块与锁定。"
+  }
+}

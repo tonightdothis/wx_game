@@ -1,0 +1,71 @@
+{
+  "id": "level_01",
+  "name": "新手柜 · 开业第一天",
+  "rows": 2,
+  "cols": 3,
+  "slotCapacity": 7,
+  "moveQuota": 8,
+  "items": {
+    "undo": 1,
+    "magnet": 1,
+    "expand": 1,
+    "reshuffle": 0,
+    "ice_pick": 0,
+    "key": 0
+  },
+  "grid": [
+    [
+      {
+        "stack": [
+          "milk_tea",
+          "milk_tea",
+          "milk_tea"
+        ]
+      },
+      {
+        "stack": [
+          "coffee",
+          "coffee",
+          "coffee"
+        ]
+      },
+      {
+        "stack": [
+          "latte",
+          "latte",
+          "latte"
+        ]
+      }
+    ],
+    [
+      {
+        "stack": [
+          "juice",
+          "juice",
+          "juice"
+        ]
+      },
+      {
+        "stack": [
+          "matcha",
+          "matcha",
+          "matcha"
+        ]
+      },
+      {
+        "stack": [
+          "soda",
+          "soda",
+          "soda"
+        ]
+      }
+    ]
+  ],
+  "meta": {
+    "estimatedMinutes": [
+      3,
+      5
+    ],
+    "description": "教学关：每格三同，点选即可清场。"
+  }
+}
