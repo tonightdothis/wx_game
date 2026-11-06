@@ -1,0 +1,13 @@
+{
+  "name": "drink-match-mini-game",
+  "uuid": "7f2fe3a3-5a3f-4c1b-ae33-9f5b0c3d7e21",
+  "version": "3.8.8",
+  "private": true,
+  "description": "Drink match clearing game prototype for Cocos Creator.",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "validate:levels": "node tools/validate-levels.js"
+  }
+}
