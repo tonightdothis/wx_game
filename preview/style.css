@@ -1,0 +1,113 @@
+:root {
+  color-scheme: light dark;
+  --bg: #1a1520;
+  --card: #2a2233;
+  --text: #f5eef8;
+  --muted: #b9a8c7;
+  --accent: #ff8a65;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  max-width: 880px;
+  padding: 16px 20px 48px;
+  background: radial-gradient(ellipse at top, #3a2a4a, var(--bg));
+  color: var(--text);
+}
+
+header h1 { margin: 0; font-size: 1.6rem; }
+header small { color: var(--muted); font-weight: 500; }
+.sub { color: var(--muted); margin-top: 4px; }
+
+.toolbar, .hud, .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 12px 0;
+}
+
+button, select {
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 12px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+button:hover { filter: brightness(1.1); }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.hud span, .status {
+  background: var(--card);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+.status { display: inline-block; margin-bottom: 8px; color: #ffe0b2; }
+
+.shelf {
+  display: grid;
+  gap: 8px;
+}
+
+.cell {
+  min-height: 88px;
+  border-radius: 14px;
+  border: 2px solid rgba(255,255,255,0.08);
+  color: #1b120c;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.cell.empty {
+  background: rgba(255,255,255,0.06);
+  color: var(--muted);
+  border-style: dashed;
+}
+
+.cell.blocked { outline: 2px solid #81d4fa; }
+
+.cell .emoji { font-size: 1.6rem; line-height: 1; }
+.cell .label { font-size: 0.85rem; }
+.cell .depth { font-size: 0.75rem; opacity: 0.8; }
+
+.slot {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.slot-cell {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.08);
+  display: grid;
+  place-items: center;
+  font-size: 1.4rem;
+  border: 1px dashed rgba(255,255,255,0.15);
+}
+
+.log {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 10px 12px;
+  max-height: 180px;
+  overflow: auto;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.hint { color: var(--muted); font-size: 0.85rem; }
+
+h2 { font-size: 1rem; margin: 18px 0 8px; color: var(--accent); }

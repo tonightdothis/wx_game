@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>杯柜清场 · 预览</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>杯柜清场 <small>Cup Shelf Clear</small></h1>
+      <p class="sub">长局整理消除原型 · 色块 + emoji 占位</p>
+    </header>
+
+    <div class="toolbar">
+      <label>
+        关卡
+        <select id="level-select">
+          <option value="level_01">level_01 新手柜</option>
+          <option value="level_02">level_02 午后高峰</option>
+          <option value="level_03">level_03 深夜挑战</option>
+        </select>
+      </label>
+      <button type="button" id="btn-restart">重开</button>
+      <button type="button" id="btn-slide">挪位模式</button>
+    </div>
+
+    <div id="hud" class="hud"></div>
+    <div id="status" class="status"></div>
+
+    <section>
+      <h2>货架</h2>
+      <div id="shelf" class="shelf"></div>
+    </section>
+
+    <section>
+      <h2>出杯槽</h2>
+      <div id="slot" class="slot"></div>
+    </section>
+
+    <section>
+      <h2>道具</h2>
+      <div id="items" class="items">
+        <button type="button" data-item="undo" data-label="撤销">撤销</button>
+        <button type="button" data-item="magnet" data-label="磁铁">磁铁</button>
+        <button type="button" data-item="expand" data-label="扩槽">扩槽</button>
+        <button type="button" data-item="reshuffle" data-label="重排">重排</button>
+      </div>
+      <p class="hint">冰块顶杯会自动尝试冰锥；锁定顶杯走广告占位解锁。</p>
+    </section>
+
+    <section>
+      <h2>日志</h2>
+      <div id="log" class="log"></div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
